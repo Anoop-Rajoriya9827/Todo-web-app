@@ -7,7 +7,7 @@ const Footer = () => {
       <ul>
         <li>Author Anoop</li>
         <li>Gmail Anooprajoriya0@Gmail.com</li>
-        <li>copy $copy  Right Free</li>
+        <li>copy Right Free</li>
       </ul>
     </div>
     </>

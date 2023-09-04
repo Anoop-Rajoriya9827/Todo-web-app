@@ -1,0 +1,64 @@
+.veiwTask{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 5px 0px;
+    border-top: 5px solid rgb(68, 117, 209);
+    border-bottom: 5px solid rgb(68, 117, 209);
+}
+
+.firstdiv{
+    height: 400px;
+    width: 900px;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(90, 138, 226);
+}
+h1{
+    font-size: 2.5rem;
+    color: white;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(185, 194, 209);
+    margin-bottom: 10px;
+}
+.card{
+    height: 80px;
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tdiv{
+    width: 75%;
+    height: 100%;
+    gap: 5px;
+}
+.tdiv h7{
+    height: 40%;
+    width: 100%;
+    gap: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    gap: 2px;
+}
+.tdiv hr{
+    width: 90%;
+}
+.bdiv{
+    height: 100%;
+    width: 25%;
+    gap: 4px;
+}

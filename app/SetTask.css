@@ -1,0 +1,68 @@
+.setTask{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 5px 0px;
+    border-top: 5px solid rgb(68, 117, 209);
+    border-bottom: 5px solid rgb(68, 117, 209);
+}
+
+.setTask form{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(68, 117, 209);
+    border-radius: 10px;
+}
+.setTask form h1{
+    color: white;
+    font-size: 2rem;
+}
+.setTask form div{
+    border: 2px solid white;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+}
+.setTask form div input{
+    height: 30px;
+    width: 230px;
+    padding: 3px 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.setTask form div textarea{
+    height: 40px;
+    width: 230px;
+    padding: 4px 8px;
+    resize: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.setTask form button{
+    height: 30px;
+    width: 80px;
+    padding: 3px 10px;
+    border: 1px solid white;
+    background: rgb(68, 117, 209);
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.setTask form button:hover{
+    background: white;
+    color: rgb(31, 76, 160);
+    font-weight: 600;
+    
+}
