@@ -6,8 +6,6 @@
     justify-content: center;
     padding: 10px 20px;
     margin: 5px 0px;
-    border-top: 5px solid rgb(68, 117, 209);
-    border-bottom: 5px solid rgb(68, 117, 209);
 }
 
 .firstdiv{
@@ -16,6 +14,9 @@
     border-radius: 10px;
     padding: 10px;
     background: rgb(90, 138, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 h1{
     font-size: 2.5rem;
@@ -25,14 +26,23 @@ h1{
     border-bottom: 1px solid rgb(185, 194, 209);
     margin-bottom: 10px;
 }
+
+.cdiv{
+    height: 320px;
+    width: 830px;
+    gap: 10px;
+    overflow-y: auto;
+    padding: 4px;
+}
 .card{
     height: 80px;
     width: 400px;
     background: white;
     border-radius: 10px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     padding: 5px;
+    margin: 4px;
 }
 .card div{
     display: flex;
@@ -60,5 +70,31 @@ h1{
 .bdiv{
     height: 100%;
     width: 25%;
-    gap: 4px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bdiv button{
+    height: 25px;
+    width: 80px;
+    color: white;
+    background: rgb(90, 138, 226);
+    font-size: 1rem;
+    padding: 1px 6px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.d:hover{
+    background: #ff7474;
+    border: 1px solid #b35757;
+}
+.c:hover{
+    background: #84ff74;
+    border: 1px solid #79b357;
+}
+.notask{
+    color: white;
 }
